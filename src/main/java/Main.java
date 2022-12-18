@@ -7,7 +7,6 @@ public class Main {
         people.add(new Person("Anya", "Ivanova Smirnova Kukushkina", 8));
         people.add(new Person("Danya", "Vavilov Korol Vtoroi", 20));
         people.add(new Person("Stas", "Vasiliev", 5));
-        System.out.println(people);
         Collections.sort(people, new PersonCompare(2));
         System.out.println(people);
     }
